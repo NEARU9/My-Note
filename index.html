@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="icon" href="img/Nearu.png">
+    <title>Note</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body  oncontextmenu="return false;"> 
+    <div class="container"  oncopy="handleCopy(event);">
+        <h1>Catatan</h1>
+
+        <div class="note">
+            <h2 class="title" onclick="toggleNoteContent('note1')">Problems solved by Bitcoin</h2>
+            <div id="note1" class="content">
+                <p>Kriptografi adalah ilmu dan praktik untuk mengamankan komunikasi dan data dengan mengubah teks biasa menjadi bentuk yang tidak dapat dimengerti secara umum, kecuali oleh mereka yang memiliki pengetahuan khusus (kunci atau algoritma kriptografi yang tepat). Ini mencakup teknik-teknik seperti enkripsi (proses mengubah teks biasa menjadi teks terenkripsi), dekripsi (proses mengubah teks terenkripsi kembali menjadi teks biasa), serta metode untuk mengamankan informasi dari akses yang tidak sah atau modifikasi.</p>
+                <p>Cryptocurrency adalah bentuk uang digital yang menggunakan kriptografi untuk keamanan transaksi dan pengontrolan pembuatan unit baru. Cryptocurrency biasanya beroperasi secara terdesentralisasi menggunakan teknologi blockchain, yang memungkinkan catatan transaksi yang aman dan transparan. Contoh cryptocurrency terkenal termasuk Bitcoin, Ethereum, dan banyak lainnya yang menggunakan teknologi blockchain untuk validasi transaksi dan pencatatan kepemilikan aset digital.</p>
+
+                <h3>There Is No Second Best</h3>
+                <p>Kenapa kita perlu investasi?, Jawaban sederhananya adalah agar uang kita tidak termakan inflasi. Menurut <a href="https://en.wikipedia.org/wiki/Michael_J._Saylor">Michael J. Saylor</a>, data inflasi dimanipulasi oleh pemerintah supaya warganya cukup senang dengan kehidupan saat ini.</p>
+                <p>Contohnya, cara kita menghitung inflasi adalah dengan menghitung harga barang di dalam sebuah keranjang. </p>
+                <img src="img/Basket of Goods.webp" alt="">
+                <p>Masalahnya, isi keranjang ini bisa diubah sewaktu-waktu oleh badan statistik. Contohnya, baru-baru ini badan statistik Amerika berhenti melacak harga kopi dalam CPI (Indeks Harga Konsumen).</p>
+                <img src="img/Consumer Price Index.png" alt="">
+                <p>Kenapa? Alasan dari badan statistik adalah karena ada perubahan tren konsumsi di masyarakat, alias <a href="https://www.bls.gov/cpi/quality-adjustment/#:~:text=The%20hedonic%20quality%20adjustment%20method,price%20of%20the%20old%20item.">hedonic adjustment</a>.</p>
+                <p>Contoh sederhananya: 10 tahun yang lalu kita membeli rumah seharga 1 miliar Rupiah yang berlokasi di Jakarta dengan luas 200 m². Sekarang, kita bisa membeli rumah dengan harga 1,3 miliar Rupiah di Depok dengan luas 50 m². CPI akan melihat ini sebagai inflasi 3% per tahun. Jadi memang benar harga rumahnya naik 3%, tapi dengan kualitas yang berbeda.</p>
+                <img src="img/THE OVERPOST hedonic adjustment 1.png" alt="Rumah di Jakarta dan Depok">
+                <p>Makanya, menurut <a href="https://en.wikipedia.org/wiki/Michael_J._Saylor">Michael J. Saylor</a>, hal ini tidak masuk akal karena sangat subjektif dan bisa disesuaikan dengan kepentingan pemerintah. Jika inflasinya ingin terlihat stabil, cukup cabut saja harga rumah yang luas dan ganti dengan rumah yang lain, atau jika harga kopi naik, tidak perlu diperbarui. Jadi, meskipun angka inflasi terlihat sesuai target 3%, kenyataannya standar hidup warga di negara tersebut sebenarnya terus berkurang.</p>
+                <p>Makanya, menurut Saylor, inflasi seharusnya seperti vektor, bukan skalar. Artinya, rumah di Jakarta 10 tahun yang lalu seharusnya dibandingkan dengan rumah yang sama saat ini, bukan dengan rumah lain atau bahkan yang lebih kecil.</p>
+                <img src="img/THE OVERPOST hedonic adjustment 2.png" alt="">
+                <p>Menurut Saylor, cara alternatif untuk menghitung inflasi adalah dengan cukup melihat pertumbuhan money supply dari sebuah negara.</p>
+                <h4>Pertumbuhan money supply dalam 40 tahun terakhir di Indonesia dan Amerika</h4>
+                <figure>
+                    <img src="img/THE OVERPOST  IND money supply in the last 40 years.png" alt="Indonesian Money Supply in the Last 40 Years">
+                    <figcaption>Indonesian Money Supply in the Last 40 Years</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/THE OVERPOST  US money supply in the last 40 years.png" alt="U.S. Money Supply in the Last 40 Years">
+                    <figcaption>U.S. Money Supply in the Last 40 Years</figcaption>
+                </figure>
+                <p>Gambaran seberapa parahnya ini: pada tahun 1990, uang sebesar 1.000.000 Rupiah akan tersisa sekitar 1.873 Rupiah pada tahun 2020 jika mengikuti tingkat inflasi sebesar 17% per tahun selama 40 tahun. Ini menunjukkan betapa parahnya inflasi dan pengurangan daya beli dari uang tersebut akibat tingkat inflasi yang sangat tinggi. Dengan kata lain, daya beli uang akan sangat berkurang sehingga 1.000.000 Rupiah di tahun 1990 hanya setara dengan sekitar 1.873 Rupiah di tahun 2020.</p>
+                <img src="img/Rumus 1.png" alt="">
+                <h3>Apa Instrumen Investasi Terbaik untuk 100 Tahun ke Depan?</h3>
+                <p>Instrumen investasi terbaik yang tidak mengurangi daya beli (purchasing power) mungkin bisa dijawab dengan saham, emas, properti, atau tanah. Namun, menariknya, apapun jawabannya, semua aset di dunia ini akan menghadapi satu dilema besar: setiap kali harga aset tersebut naik, orang akan menciptakan lebih banyak lagi aset tersebut.</p>
+                <p>Investasi saham bisa terkena dilusi akibat rights issue. Investasi tanah dapat terdampak oleh reklamasi. Investasi emas, jika harganya terus naik, akan mencapai keseimbangan pasar (market equilibrium) di mana penambang akan mengeluarkan modal lebih besar untuk menggali lebih dalam atau menciptakan teknologi baru guna meningkatkan jumlah suplai emas.</p>
+                <p>Dalam kata lain, karena dilema ini, nilai aset-aset seperti emas, properti, dan saham semuanya terus menurun, kecuali Bitcoin. Mengapa hal ini bisa terjadi?</p>
+
+                <h3>Stock To Flow</h3>
+                <p>Stok-to-Flow adalah perbandingan antara stok yang ada saat ini dengan jumlah yang dapat diproduksi setiap tahun.</p>
+                <img src="img/Stock To Flow.png" alt="">
+                <p>Aset yang baik adalah yang memiliki rasio Stok-to-Flow tinggi, karena hal ini menandakan bahwa barang tersebut langka dan sulit untuk ditambahkan jumlahnya relatif terhadap jumlah yang sudah ada.</p>
+                <p>Jadi di sini kita bisa melihat bagaimana kelemahan dolar, karena pemerintah dapat mencetak uang tanpa memiliki underlying assets. Misalnya, seperti pada masa pandemi COVID-19, Amerika dapat mencetak uang kapan saja jika dibutuhkan. Secara teori, ini bisa menyebabkan flow-nya menjadi sangat besar, yang berarti rasio stok-to-flow-nya sangat kecil.</p>
+                <p>Bagaimana dengan emas? Kita dapat menggunakan data historis yang menunjukkan bahwa jumlah emas yang ditemukan bertambah sekitar 1,5% per tahun dalam 100 tahun terakhir.</p>
+                <img src="img/gold in 100.png" alt="">
+                <p>Rasio Stok-to-Flow emas lebih tinggi daripada USD, namun masalah utamanya adalah kita tidak tahu total suplai emas yang ada di dalam tanah. Apalagi, hal ini dapat dilihat dari data di bawah ini.</p>
+                <img src="img/gold in 100 year 1.png" alt="">
+                <p>Pertumbuhan penemuan emas malah meningkat belakangan ini. Oleh karena itu, jika harganya naik, bisa digunakan modal yang lebih besar untuk teknologi baru atau penggalian lebih dalam.</p>
+                <p>Namun, Bitcoin berbeda. Karena secara desain, maksimal hanya ada 21 juta koin dalam sirkulasi dan tidak bisa dicetak lagi, artinya flow-nya akan menuju nol. Secara otomatis, ini adalah aset terbaik, "there is no second best."</p>
+                <figure>
+                    <img src="img/Max_moeny.png" alt="">
+                    <figcaption><a href="https://github.com/bitcoin/bitcoin/blob/master/src/consensus/amount.h">Soruce Code</a></figcaption>
+                </figure>
+                <h3>Note:</h3>
+                <p>MAX_MONEY adalah konstanta yang menetapkan jumlah maksimum Bitcoin yang dapat ada dalam sirkulasi berdasarkan desain Bitcoin. Saat ini, total suplai Bitcoin di batasi menjadi kurang dari 21 juta BTC. Konstanta ini penting untuk validasi konsensus pada jaringan Bitcoin, untuk memastikan tidak ada penciptaan koin tambahan yang tidak sah.</p>
+
+                <h3>Bitcoin memecahkan beberapa masalah utama dalam dunia keuangan dan teknologi, antara lain:</h3>
+                <p>1. Desentralisasi: Bitcoin menggunakan teknologi blockchain yang memungkinkan transaksi diproses dan diverifikasi tanpa perlu otoritas pusat seperti bank atau pemerintah. Hal ini memungkinkan sistem yang lebih terdesentralisasi dan resisten terhadap manipulasi atau cenzur.</p>
+                <p>2. Transparansi: Blockchain Bitcoin adalah buku besar publik yang terdistribusi secara luas. Ini berarti bahwa semua transaksi yang dilakukan dapat dilihat oleh siapa saja dan diverifikasi secara independen.</p>
+                <p>3. Keamanan: Kriptografi yang digunakan dalam Bitcoin, seperti algoritma hash dan kunci publik-privat, memberikan tingkat keamanan yang tinggi terhadap manipulasi data dan transaksi yang tidak sah.</p>
+                <p>4. Ketidakinflasian: Bitcoin dirancang dengan jumlah total pasokan yang terbatas (21 juta BTC), sehingga tidak dapat dipengaruhi oleh kebijakan moneter yang dapat menyebabkan inflasi.</p>
+                <p>5. Efisiensi dan Kecepatan: Transaksi Bitcoin dapat diproses dengan cepat tanpa perlu melibatkan pihak ketiga atau prosedur yang rumit seperti dalam sistem keuangan tradisional.</p>
+                <p>6. Akses Global: Bitcoin dapat diakses oleh siapa saja yang memiliki akses internet, tanpa memerlukan persyaratan khusus seperti akun bank.</p>
+                <p>7. Inovasi Finansial: Bitcoin telah mengilhami inovasi dalam teknologi keuangan lainnya, seperti pengembangan platform dan aplikasi berbasis blockchain yang lebih canggih.</p>
+
+                <p>Sumber: </p>
+                <p><a href="https://www.youtube.com/watch?v=kOJVdLIHncQ&t=527s" class="source-link" target="_blank">YouTube Overpost</a></p>
+                <p><a href="https://github.com/bitcoin" class="source-link" target="_blank">Bitcoin Github</a></p>
+                <p><a href="https://bitcoin.org/files/bitcoin-paper/bitcoin_id.pdf" class="source-link" target="_blank">Bitcoin Whitepaper</a></p>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="note">
+            <h2 class="title" onclick="toggleNoteContent('note2')">7 Successful Strategies of Crypto Traders</h2>
+            <div id="note2" class="content">
+                <p>Para pedagang yang diwawancarai oleh CoinDesk mengatakan bahwa musim dingin kripto telah berakhir. Berikut ini adalah rencana mereka untuk maju dalam fase pasar berikutnya. Jeff Wilser melaporkan.</p>
+                <p>Mari saya kupas tuntas. Untuk mengetahui bagaimana para pedagang berpikir tentang lanskap kripto saat ini, ada baiknya kita lihat bagaimana artikel ini berkembang. Awalnya, saya bermaksud agar judulnya adalah, "Bagaimana Para Pedagang Menemukan Keunggulan di Musim Dingin Kripto."</p>
+                <p>Kecuali para pedagang menyampaikan pesan yang berbeda kepada saya: Ini bukan lagi musim dingin kripto. “Bitcoin tidak naik +130% selama 10 bulan berturut-turut di pasar yang sedang lesu,” kata pedagang Adrian Zduńczyk kepada saya melalui Twitter/X DM. Zduńczyk yakin fase awal pasar yang sedang naik dimulai pada Januari 2023. “Banyak proyek terus-menerus menyebutnya secara keliru sebagai musim dingin kripto atau pasar yang sedang lesu,” kata Zduńczyk, “sementara yang mereka maksud adalah ekonomi yang lambat.”</p>
+                <p>Pertanyaannya lebih dari sekadar akademis. Bagi banyak pedagang, memahami lingkungan makro sangat penting untuk merencanakan pergerakan jangka pendek sekalipun. Ini adalah salah satu pepatah tertua dalam perdagangan: Tren adalah teman Anda. Dalam iklim di mana harga cenderung naik, Anda "berpihak pada posisi beli" dan melakukan aksi jual dapat merugikan. Begitu pula sebaliknya dalam pasar yang sedang lesu.</p>
+                <p>Beberapa pedagang telah menyambut apa yang mungkin merupakan Musim Semi Kripto, sementara yang lain masih gelisah dan terluka oleh pasar yang sedang lesu. “Ini sulit bagi para pedagang. Kami manusia, kami emosional,” kata Christopher Inks, yang menjalankan grup perdagangan Texas West Capital . Inks mengatakan bahwa bagi banyak pedagang yang begitu terbiasa dengan aksi harga yang lesu pada tahun 2022, “ada bias keterkinian, dan mungkin sulit untuk mendapatkan gagasan bahwa titik terendah sudah tercapai.” Inks, seperti Zduńczyk, percaya pada pasar bull baru, karena “faktanya adalah bahwa kita baru saja mengalami reli selama sekitar satu tahun sekarang.”</p>
+                <p>Dan kemudian ada pedagang lain yang acuh tak acuh terhadap arah angin bertiup -- mereka dengan senang hati akan mengambil posisi beli atau jual. "Dari sudut pandang saya, pasar selalu bullish. Selalu. Kami tidak peduli ke arah mana pasar bergerak," kata Paweł Łaskarzewski, yang mengelola dana lindung nilai Nomad Fulcrum . "Tergantung pada sentimen, kami menggunakan strategi yang berbeda, dan mungkin lebih banyak mengambil posisi jual daripada beli."</p>
+                <p>Jadi, itulah yang pertama dari dua pernyataan yang perlu diperhatikan: Tidak semua pedagang berdagang dengan cara yang sama, memiliki strategi yang sama, atau memandang pasar melalui sudut pandang yang sama. Jika mereka melakukannya, menurut definisi, tidak akan ada perdagangan -- setiap pembeli membutuhkan penjual.</p>
+                <p>Dan peringatan kedua adalah peringatan yang harus Anda perhatikan: Semua ini bukan nasihat keuangan. Jangan membeli atau menjual apa pun berdasarkan kutipan yang Anda baca di sebuah artikel. Lakukan riset Anda sendiri. Makanlah sayur-sayuran. Gunakan tabir surya. Telepon orang tua Anda pada hari ulang tahun mereka.</p>
+                <p>Dengan semua itu, berikut adalah tujuh strategi yang digunakan pedagang kripto saat ini untuk menemukan istilah yang paling sulit dipahami dan didambakan -- Edge.</p>
+
+                <h2>1. Lebih banyak breakout, lebih banyak sinyal, lebih banyak perdagangan</h2>
+                <p>Adrian Zduńczyk, yang mengelola grup perdagangan bernama The Birb Nest , memiliki seperangkat aturan dan sinyal tertentu yang ia gunakan untuk memasuki perdagangan, yang sering kali berupa penembusan. Sinyal-sinyal tersebut sama di pasar bearish atau bullish, tetapi yang berubah adalah sinyal-sinyal tersebut sekarang "menyala" lebih banyak daripada tahun 2022. "Saya membeli ketika ada penembusan harga yang dikonfirmasi," kata Zduńczyk.</p>
+                <p>Seringkali perdagangan ini gagal, seperti yang dikatakan Zduńczyk, tingkat kemenangannya hanya 30%. "Saya kehilangan uang untuk mencari nafkah," katanya sambil tertawa. Namun, ia mempertahankan stop loss yang ketat (nilai maksimal yang dapat ia hilangkan untuk setiap perdagangan) dan membiarkan para pemenang terus berjalan, sehingga 30% pemenangnya lebih dari sekadar mengganti 70% yang kalah. Perhitungan itu sama saja di musim dingin kripto atau di musim semi kripto, tetapi sekarang ia menghabiskan lebih banyak waktu dalam perdagangan daripada hanya duduk diam.</p>
+
+                <h2>2. Strategi “moonbag”</h2>
+                <p>Yang ini milik Wendy O, mantan CoinDesker dan pembawa acara The O Show . Jika proyek yang diinvestasikannya mulai "menghasilkan keuntungan besar," ia mulai mengambil untung dan kemudian mendapatkan kembali investasi awalnya. "Apa pun yang tersisa adalah moonbag saya. Saya memilikinya secara cuma-cuma," kata Wendy. Kemudian terkadang ia akan menaruh tas itu di platform staking (jika tersedia), sehingga ia dapat memperoleh pendapatan pasif sambil menunggu tas itu menghasilkan keuntungan besar.</p>
+
+                <h2>3. Arbitrase berkorelasi</h2>
+                <p>Paweł Łaskarzewski, yang acuh tak acuh terhadap pasar bull atau bear, membagikan contoh dua aset yang berkorelasi dalam pergerakan harga. "Tesla bergerak ke arah yang sama dengan NASDAQ," katanya. Anda kemudian dapat menggambar dua kurva harga -- satu untuk Tesla dan satu untuk NASDAQ. "Jika spread di antara keduanya meningkat, kami dapat menghasilkan uang dari spread tersebut. Kami tidak peduli apakah itu naik atau turun." Prinsip yang sama dapat digunakan untuk pasar forex (seperti spread antara Dolar AS dan Euro) atau dalam kripto, seperti spread antara Bitcoin dan sesuatu seperti Solana atau BNB.</p>
+
+                <h2>4. Perdagangan dengan “Metode Wyckoff”</h2>
+                <p>Lebih dari 100 tahun yang lalu, seorang teknisi keuangan bernama Richard Wyckoff mengembangkan teori bahwa pasar bergerak dalam siklus, dan bahwa memahami siklus ini akan memberikan sinyal kapan harus membeli dan menjual. Mereka masih digunakan oleh para pedagang dan dikenal sebagai siklus pasar Wyckoff . Christopher Inks mempelajari grafik dan menggunakan siklus ini untuk memandu pengaturannya. "Keunggulan saya benar-benar adalah pemahaman tentang psikologi pasar," kata Inks. "Mampu membaca aksi harga dan volume." Inks mengatakan siklus ini terjadi pada cakrawala yang lebih panjang (minggu dan bulan) dan bahkan pada kerangka waktu yang lebih pendek (menit). Ini membantu memperjelas arah tren, kata Inks, "dan salah satu hal terbaik yang dapat dilakukan pedagang adalah berdagang searah tren."</p>
+
+                <h2>5. Perdagangkan lebih dari sekadar kripto</h2>
+                <p>Banyak pedagang kripto juga merupakan pedagang saham dan pedagang valas, yang memburu pengaturan terbaik di mana pun mereka muncul. "Mengapa membatasi diri?" kata Łaskarzewski. "Mengapa membatasi diri hanya pada pasar kripto jika Anda juga dapat menghasilkan uang di tempat lain?" Perusahaan Łaskarzewski sering mengalihkan modal dari kripto ke minyak, Tesla, emas, dan kembali ke kripto, dan ya, tokenisasi RWA adalah bagian dari strategi yang lebih besar itu. "Peran tokenisasi 100% penting," kata Łaskarzewski, seraya menambahkan bahwa perusahaannya akan meluncurkan token RWA-nya sendiri pada bulan Januari, yang memungkinkan lebih banyak investor untuk membeli dana tersebut.</p>
+
+                <h2>6. Gunakan leverage dengan hati-hati</h2>
+                <p>Beberapa kali dalam panggilan kami, Wendy O menekankan bahwa semua ini bukanlah nasihat keuangan -- jadi saya akan mengulangi pesan itu di sini -- dan menambahkan bahwa dia secara pribadi tidak menggunakan banyak leverage. "Jika saya menggunakannya, maksimal 2X atau 3X," kata Wendy. Łaskarzewski setuju, dan mencatat bahwa leverage yang berlebihan adalah salah satu cara pedagang pemula terpuruk. "Mereka menggunakan leverage 1 banding 100 dan pasar bergerak 1% ke arah yang salah dan mereka kehilangan segalanya," kata Łaskarzewski.</p>
+
+                <h2>7. Scalping</h2>
+                <p>Sebuah hal lama namun bagus, dan bagian penting dari perangkat Nomad Fulcurm. “Kami memiliki scalper malam dan scalper siang yang beroperasi pada kerangka waktu yang berbeda,” kata Łaskarzewski. “Jam, menit, dan seperempat jam.” Prinsip dasarnya: Anda mengidentifikasi rentang di mana harga telah naik turun -- katakanlah cenderung melambung saat mencapai $15 dan kemudian “ditolak” (bergerak turun) saat mencapai $20. Ada banyak metrik canggih (sering kali berfokus pada volume) yang membantu menyempurnakan kriteria, tetapi idenya adalah Anda membeli pada $15 dan kemudian menjual pada $20, ulangi lagi.</p>
+                <p>Sederhana dalam teori, sulit dalam praktik. Saya tahu dari pengalaman pribadi, karena saya mencoba melakukan scalping saham AS setiap pagi selama hampir dua tahun. Bagaimana hasilnya? Biar saya jelaskan begini. Jika mudah dan menguntungkan, menurut Anda apakah saya akan menulis artikel ini? Atau dengan kata lain, lanjutkan dengan hati-hati.</p>
+
+                <p>Sumber: <a href="https://www.coindesk.com/consensus-magazine/2023/11/06/7-successful-strategies-of-crypto-traders/" class="source-link" target="_blank">CoinDesk</a></p>
+
+            </div>
+        </div>
+
+        <div class="note">
+            <h2 class="title" onclick="toggleNoteContent('note3')">@SecretsOfCrypto</h2>
+            <div id="note3" class="content">
+                <p>rangkaian infografis tentang pelajaran paling penting untuk dipelajari tentang crypto investasi.</p>
+
+                <h3>1. Beginilah kesuksesan multi-jutawan dalam Siklus 4 Tahun sebelumnya.</h3>
+                <p>Belajar dari pengalaman kami. Saya & teman saya terakumulasi #Altcoins pada tahun 2016 (dibandingkan dengan tahun 2020). Pada tahun 2018 ada 2 jenis altcoiner yang keluar dari siklus tersebut.</p>
+                <img src="img/Altcoiner.jpeg" alt="" >
+
+                <h3>2. Kapan #Altseason?</h3>
+                <p>Jangan fokus pada tanggal tetapi pahami aliran uang. Durasi fase-fase tersebut adalah parabola yang berarti yang pertama memakan waktu paling lama dan yang terakhir berjalan paling cepat. Fase tumpang tindih & dapat terbalik untuk sementara. Persiapkan sebagaimana mestinya.</p>
+                <img src="img/Path to Altseason.jpeg" alt="">
+
+                <h3>3. Tindakan harga Bitcoin dapat mempersingkat hal ini tetapi secara umum</h3>
+                <p> inilah cara saya memperhatikan perkembangan pompa altcoin yang terjadi selama altseason. Menjelang akhir, koin sampah terpompa ke seluruh papan & itu merupakan sinyal teratas yang cukup andal yang saya cari.</p>
+                <img src="img/Pump Altcoin.jpeg" alt="">
+
+                <h3>4. Perbandingan Dumb Money vs. Smart Money</h3>
+                <p>Mengapa begitu sulit melakukan perdagangan yang benar? Sebab perilaku manusia didorong oleh dorongan emosi. Anda tidak dapat menahan diri untuk tidak merasakan emosi tersebut, namun uang pintar mengenali emosi tersebut dan tidak membiarkannya mendikte strateginya.</p>
+                <img src="img/Dumb Money tredes on emotions.jpeg" alt="">
+                <img src="img/Smart Money has a Plan.jpeg" alt="">
+
+                <h3>5. Karena #Altseason adalah fungsi dari peserta baru yang membanjiri pasar #crypto</h3>
+                <p>Anda harus memahami arus kerumunan. Cara terbaik untuk memainkan siklus ini adalah dengan berada 1 langkah di depan orang banyak seperti yang ditunjukkan pada grafik di bawah ini:</p>
+                <img src="img/Flow of the Crowd during the 4-Year Crypto Cycle.jpeg" alt="">
+
+                <h3>6. Saat saya sedang meneliti sebuah proyek</h3>
+                <p>inilah pertanyaan-pertanyaan yang ingin saya jawab sebelum saya berinvestasi. Sebagian besar informasi dapat ditemukan di website, whitepaper, CoinGecko, Medium dan media sosial (Telegram, Twitter, dll.)</p>
+                <img src="img/Altcoin Reasearch Checklist.jpeg" alt="">
+
+                <h3>7. Saya mendapat banyak pertanyaan tentang cara menjual $alts & apa yang harus dilakukan dengan keuntungannya.</h3>
+                <p>Jawabannya bergantung pada posisi kita dalam siklus pasar seperti yang diilustrasikan oleh infografik di bawah ini.</p>
+                <p>Keuntungan yang bertambah mengubah investasi awal yang kecil menjadi kekayaan yang mengubah hidup.</p>
+                <img src="img/Compounding Gains in the Bull Run.jpeg" alt="">
+
+                <h3>8. BTC Value vs USD Value</h3>
+                <p>Influencer merujuk pada altcoin dalam nilai USD karena membuat altcoin terlihat lebih baik sementara #Bitcoin berkinerja lebih baik. Jika altcoin Anda tidak mengungguli Bitcoin, tidak ada gunanya berinvestasi. Lihatlah nilai satoshi untuk mengetahui apa yang sebenarnya terjadi.</p>
+                <img src="img/BTC Value vs USD Value.jpeg" alt="">
+
+                <h3>9. Bertujuan untuk menjual sebagian besar posisi Anda di 3 teratas siklus.</h3>
+                <p>Menganalisis 2 siklus sebelumnya, Anda hanya punya ~40 hari untuk menjual di area ini. Kedua kali itu terjadi sekitar tahun baru. Untuk memaksimalkan perolehan, Anda perlu menghitung rata-rata beban terberat dalam periode 40 hari ini.</p>
+                <img src="img/40 days in the top.jpeg" alt="">
+
+                <h3>10. Dalam analisis 2 altseason utama 2017/18 di bawah ini,</h3>
+                <p>semakin cerah warna kuningnya, semakin banyak puncak altcoin yang terjadi. Menariknya 2/3 alt memiliki nilai ATH dalam sat di altseason pertama. Di kedua altseason, BTC telah melakukan 10x & ETH membuat pergerakan parabola dalam sat.</p>
+                <img src="img/Analysis of 2017-2018 Altseasons.jpeg" alt="">
+
+                <h3>11. Selalu ada seseorang yang mencoba mencuri kripto Anda.</h3>
+                <p> Ada banyak lapisan perlindungan yang dapat Anda gunakan selain ini, tetapi ini adalah langkah-langkah keamanan dasar yang harus Anda pertimbangkan jika Anda serius dalam investasi kripto.</p>
+                <img src="img/Safe investing.jpeg" alt="">
+
+                <p>Sumber: <a href="https://twitter.com/SecretsOfCrypto/status/1433902231481241600" class="source-link" target="_blank">@SecretsOfCrypto</a></p>
+
+            </div>
+        </div>
+
+        <div class="note">
+            <h2 class="title" onclick="toggleNoteContent('note4')">Crypto Fear and Greed index </h2>
+            <div id="note4" class="content">
+                <p id="fear-greed-data">Memuat data...</p>
+                <p>sumber Api: <a href="https://alternative.me/crypto/fear-and-greed-index/">alternative</a></p>
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
